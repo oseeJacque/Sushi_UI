@@ -1,5 +1,13 @@
 # sushi_restaurant_ui
+# Flutter App: User Interface Challenge
 
+This project is a small challenge of making a user interface flutter application. It is an e-commerce application for selling sushi. Here are the images above that highlight the interface of the application.
+<p align="center">
+    <img src="images_readme\plant_1-removebg-preview.png" width="350"  alt="accessibility text">
+  <img src="images_readme\plant_2-removebg-preview.png" width="350"  alt="accessibility text">
+  
+
+</p>
 A new Flutter project.
 
 <h2>Getting Started</h2>
