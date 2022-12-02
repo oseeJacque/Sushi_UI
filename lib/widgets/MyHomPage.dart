@@ -10,37 +10,39 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppTheme.bgColor,
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const SizedBox(
-            height: 35.0,
-          ),
-          Padding(
-            padding: const EdgeInsets.all(12.0),
-            child: CircleButtonWidgets(Icons.menu),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(12.0),
-            child: TextStyler("👋 Hi, Angle!",fontSize: 20.0, fontWeight: FontWeight.bold,),
-          ),
-          const SizedBox(height: 10.0,),
-          Padding(
-            padding: const EdgeInsets.all(12.0),
-            child: TextStyler("What  is your favorite Sushi?",fontSize: 25.0,fontWeight: FontWeight.bold,),
-          ),
-          buildSearch(),
-          const SizedBox(height: 10.0,),
-          buildHeader("Categories", () {}),
-          const SizedBox(height: 12.0,),
-          buildCategories(),
-          const SizedBox(height: 12.0,),
-          buildHeader("Top sushi", () {}),
-          SizedBox(
-            height: 300,
-            child: HomeTopSushiView(),
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const SizedBox(
+              height: 35.0,
             ),
-        ],
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: CircleButtonWidgets(Icons.menu),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: TextStyler("👋 Hi, Angle!",fontSize: 20.0, fontWeight: FontWeight.bold,),
+            ),
+            const SizedBox(height: 10.0,),
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: TextStyler("What  is your favorite Sushi?",fontSize: 25.0,fontWeight: FontWeight.bold,),
+            ),
+            buildSearch(),
+            const SizedBox(height: 10.0,),
+            buildHeader("Categories", () {}),
+            const SizedBox(height: 12.0,),
+            buildCategories(),
+            const SizedBox(height: 12.0,),
+            buildHeader("Top sushi", () {}),
+            SizedBox(
+              height: 300,
+              child: HomeTopSushiView(),
+              ),
+          ],
+        ),
       ),
     );
   }
