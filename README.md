@@ -3,8 +3,8 @@
 
 This project is a small challenge of making a user interface flutter application. It is an e-commerce application for selling sushi. Here are the images above that highlight the interface of the application.
 <p align="center">
-    <img src="images_readme\plant_1-removebg-preview.png" width="350"  alt="accessibility text">
-  <img src="images_readme\plant_2-removebg-preview.png" width="350"  alt="accessibility text">
+    <img src="assets\image_readme\suchi1.png" width="350"  alt="accessibility text">
+  <img src="assets\image_readme\suchi2.png" width="350"  alt="accessibility text">
   
 
 </p>
